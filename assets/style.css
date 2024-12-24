@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f5ff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Arial Black', 'Helvetica', sans-serif;
+    color: #1a4b8e;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #155cb5;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #1a4b8e;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #333;
+    background-color: #f9faff;
+}
+
+tr:nth-child(even) td {
+    background-color: #e1ebf7;
+}
+
+.btn-edit {
+    background-color: #4187d6;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.btn-edit:hover {
+    background-color: #3369b4;
+}
+
+.btn-delete {
+    background-color: #d32f2f;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.btn-delete:hover {
+    background-color: #b71c1c;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.search-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-btn {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #155cb5;
+}
